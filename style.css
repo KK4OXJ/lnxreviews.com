@@ -1,0 +1,287 @@
+/*
+Theme Name: LnxReviews
+Author: Zeke Y
+Version: 1.0
+Text Domain: lnxreviews
+*/
+@import url(http://openfontlibrary.org/face/crusoe-text);
+
+body {
+	background-color: rgb(136, 136, 136);
+    text-align: center;
+	color: white;
+	font-family: Crusoe Text, sans-serif;
+}
+
+#logo {
+	width: 100px;
+	margin-bottom: -50px;
+}
+
+#home_link {
+	text-decoration: none;
+}
+
+#sitetitle {
+	color: white;
+	font-size: 70px;
+	font-family: Crusoe Text, sans-serif;
+}
+
+#header_small {
+	font-family: sans-serif;
+    font-size: 28px;
+}
+
+.navbar, footer {
+	background-color: rgb(17, 17, 17);
+	width: 100%;
+	height: 75px;
+	opacity: 0.9;
+}
+
+.img {
+    position: relative;
+}
+
+.os_review_links {
+	height: 75px;
+    width: 100%;
+    text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.os-link {
+    color: white;
+    line-height: 75px;
+    margin: 0 20px;
+}
+
+.os-link-div {
+    display: inline;
+}
+
+.reviewheaderlink {
+	text-decoration: none;
+}
+			
+footer {
+	font-size: 17px;
+	line-height: 75px;
+	margin-top: 25px;
+}
+
+#donate {
+	float: left;
+	margin-left: 25px;
+	font-weight: 300;
+}
+
+#contact {
+	position: relative;
+}
+
+#team {
+	float: right;
+	margin-right: 25px;
+}
+
+.footer-link {
+	color: white;
+	text-decoration: none;
+	font-family: serif;
+	font-weight: 300;
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+}
+			
+.up {
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.universal-div {
+	width: 500px;
+	background-color: white;
+	color: black;
+	position: relative;
+	left: 50%;
+	margin-left: -250px;
+	border-radius: 7px;
+	font-size: 110%;
+	padding: 7px;
+	line-height: 25px;
+	word-wrap: break-word;
+}
+
+/*.small_rating {
+	font-family: sans-serif;
+	font-size: 16px;
+	position: relative;
+	bottom: 10px;
+}*/
+
+.small-review {
+    font-size: 12px;
+    font-style: italic;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.version {
+	font-family: sans-serif;
+	position: relative;
+	bottom: 10px;
+	left: 47px;
+}
+
+.comment-reply-title {
+    font-size: 32px;
+	margin-top: 100px;
+}
+
+.logged-in-as {
+    display: none;
+}
+
+.form-text {
+	font-family: Crusoe Text, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	width: 280px;
+}
+
+.textarea-form {
+    font-family: Crusoe Text, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	height: 150px;
+	width: 280px;
+	max-width: 75%;
+	min-width: 280px;
+	min-height: 150px;
+}
+
+#submit {
+    font-family: Crusoe Text, sans-serif;
+	font-size: 20px;
+	padding: 5px 7px 5px 7px;
+	width: 100px;
+	cursor: pointer;
+}
+
+.big_header {
+	font-size: 56px;
+	margin-top: 100px;
+}
+
+.page-header {
+	font-size: 45px;
+	margin-top: 100px;
+}
+
+.recent-post-title {
+    color: white;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+.small-header {
+	margin-top: 50px;
+	font-size: 32px;
+}
+
+.tiny_header {
+	margin-top: 100px;
+	font-size: 24px;
+}
+
+#first_help {
+	margin-top: 0px;
+	margin-bottom: -5px;
+}
+
+.team_section {
+	font-family: Crusoe Text, sans-serif;
+}
+
+.team_pic {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.team_about {
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.team_section {
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	columns: 2;
+}
+
+.copyright-notice {
+	color: black;
+	font-family: serif;
+	font-size: 12px;
+}
+
+.resources {
+	font-size: 13px;
+/*	margin-bottom: 50px;*/
+}
+
+.all-os-section {
+	column-count: 3;
+}
+
+.contact_header {
+	font-size: 45px;
+	margin-top: 75px;
+}
+
+.all-list {
+	width: 100px;
+	padding: 0px;
+	position: relative;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.all-list, .all-list a {
+	color: white;
+	list-style: none;
+}
+
+#result {
+	visibility: hidden;
+}
+
+::selection {
+	background-color: black;
+	color: white;
+}
+
+::-moz-selection {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+}
