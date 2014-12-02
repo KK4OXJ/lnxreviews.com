@@ -8,8 +8,6 @@
             the_author_meta('description');
         ?>
  	</div>
-
- 	</div>
 </div>
 
 <?php get_footer() ?>

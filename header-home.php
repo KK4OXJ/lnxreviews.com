@@ -2,8 +2,8 @@
 <html>
 <head>
 	<link rel="stylesheet" href="/style.css">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
     
 	<title>Linux Reviews</title>
 	
@@ -30,7 +30,7 @@
 	<span id="top"></span>
     
 	<header id="header">
-		<a href="index.php" id="home_link">
+		<a href="/index.php" id="home_link">
             <img src="/tux.png" alt="Tux, the Linux penguin." id="logo">
             <h1 id="sitetitle">LnxReviews<span id="header_small">.com</span></h1>
 			</a>
