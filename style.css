@@ -2,7 +2,6 @@
 Theme Name: LnxReviews
 Author: Zeke Y
 Version: 1.0
-Text Domain: lnxreviews
 */
 @import url(http://openfontlibrary.org/face/crusoe-text);
 
@@ -79,11 +78,11 @@ footer {
 	font-weight: 300;
 }
 
-#contact {
+#admin {
 	position: relative;
 }
 
-#team {
+#contact {
 	float: right;
 	margin-right: 25px;
 }
@@ -172,7 +171,7 @@ ol, ul {
 	min-height: 150px;
 }
 
-#submit {
+.submit-form {
     font-family: Crusoe Text, sans-serif;
 	font-size: 20px;
 	padding: 5px 7px 5px 7px;
@@ -211,32 +210,10 @@ ol, ul {
 	margin-bottom: -5px;
 }
 
-.team_section {
-	font-family: Crusoe Text, sans-serif;
-}
-
-.team_pic {
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-}
-
-.team_about {
-	width: 60%;
-	text-align: center;
-	margin: auto;
-}
-
 a {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
-}
-
-.team_section {
-	-webkit-columns: 2;
-	-moz-columns: 2;
-	columns: 2;
 }
 
 .copyright-notice {
@@ -247,7 +224,6 @@ a {
 
 .resources {
 	font-size: 13px;
-/*	margin-bottom: 50px;*/
 }
 
 .all-os-section {

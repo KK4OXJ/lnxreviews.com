@@ -1,8 +1,8 @@
         <footer>
             <div class="footer-nav">
-			    <a href="donate.php" class="footer-link" id="donate">Donate</a>
-			    <a href="contact.php" class="footer-link" id="contact">Contact</a>
-			    <a href="team.php" class="footer-link" id="team">Team</a>
+			    <a href="/about" class="footer-link" id="donate">About</a>
+                <a href="/wp-admin" class="footer-link" id="admin">Admin</a>
+			    <a href="/contact" class="footer-link" id="contact">Contact</a>
             </div>
 		
 		    <p class="copyright-notice">&copy; Copyrighted and designed by Zeke Y 2014 | <a href="/wp-admin">Admin</a></p>
