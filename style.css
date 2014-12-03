@@ -121,6 +121,11 @@ footer {
 	word-wrap: break-word;
 }
 
+.wp-caption-text {
+    font-size: 10px;
+    font-style: italic;
+}
+
 /*.small_rating {
 	font-family: sans-serif;
 	font-size: 16px;
