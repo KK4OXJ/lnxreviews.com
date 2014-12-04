@@ -120,6 +120,9 @@ footer {
 	line-height: 25px;
 	word-wrap: break-word;
 }
+.universal-div img {
+    max-width: 100%;
+}
 
 .wp-caption-text {
     font-size: 10px;
