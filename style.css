@@ -32,7 +32,7 @@ body {
     font-size: 28px;
 }
 
-small {
+small, .wp-caption-text {
     text-rendering: optimizeLegibility;
 }
 
@@ -123,9 +123,14 @@ footer {
 	padding: 7px;
 	line-height: 25px;
 	word-wrap: break-word;
+    overflow: hidden;
 }
 .universal-div img {
     max-width: 100% !important;
+}
+.universal-div .aligncenter {
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .wp-caption-text {
