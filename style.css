@@ -237,19 +237,19 @@ a {
 }
 
 .all-list {
-	width: 100px;
+	width: 300px;
 	padding: 0px;
 	position: relative;
 	left: 50%;
-	margin-left: -50px;
+	margin-left: -150px;
 }
 
 .all-list li {
-    width: 100px;
+    width: 300px;
     padding: 0;
     position: relative;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -150px;
 }
 
 .all-list, .all-list li, .all-list a {
