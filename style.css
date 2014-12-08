@@ -133,13 +133,8 @@ footer {
     transform: translateX(-50%);
 }
 
-.wp-caption-text {
+.wp-caption-text, .small-review {
     font-size: 10px;
-    font-style: italic;
-}
-
-.small-review {
-    font-size: 12px;
     font-style: italic;
 }
 
