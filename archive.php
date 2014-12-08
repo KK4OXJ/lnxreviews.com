@@ -1,9 +1,14 @@
-<?php get_header() ?>
+<?php 
+/*
+Template Name: Archives
+*/
+get_header() ?>
 
 <div class="container">
-    <ul class="all-list">
-        <li><?php the_title() ?></li>
-    </ul>
+    <div id="content" role="main">
+        <?php the_post() ?>
+        <h1 class="entry-title"><?php the_title() ?></h1>
+    </div>
 </div>
 
 <?php get_footer() ?>
