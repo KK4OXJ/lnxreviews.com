@@ -10,6 +10,7 @@ get_header() ?>
     <ul class="all-list">
         <?php
             wp_get_archives(array(
+                'type' => 'alpha',
                 'format' => 'html',
                 'order' => 'ASC'
             ));
