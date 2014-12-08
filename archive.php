@@ -5,10 +5,16 @@ Template Name: Archives
 get_header() ?>
 
 <div class="container">
-    <div id="content" role="main">
-        <?php the_post() ?>
-        <h1 class="entry-title"><?php the_title() ?></h1>
-    </div>
+    <?php the_post() ?>
+    <h1 class="entry-title"><?php the_title() ?></h1>
+    <ul class="all-list">
+        <?php
+            wp_get_archives(array(
+                'format' => 'html',
+                'order' => 'ASC'
+            ));
+        ?>
+    </ul>
 </div>
 
 <?php get_footer() ?>
