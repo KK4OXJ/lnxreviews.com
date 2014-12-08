@@ -23,7 +23,7 @@
                     <?php endforeach; ?>
                     
                     <div class="os-link-div">
-                        <a href="archive.php" class="os-link">View all</a>
+                        <a href="/all-versions" class="os-link">View all</a>
                     </div>
                 </div>
             </div>
