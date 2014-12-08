@@ -32,6 +32,10 @@ body {
     font-size: 28px;
 }
 
+small {
+    text-rendering: optimizeLegibility;
+}
+
 .navbar, footer {
 	background-color: rgb(17, 17, 17);
 	width: 100%;
