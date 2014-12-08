@@ -12,7 +12,6 @@ get_header() ?>
             wp_get_archives(array(
                 'type' => 'alpha',
                 'format' => 'html',
-                'after' => '<br>',
                 'order' => 'ASC'
             ));
         ?>
