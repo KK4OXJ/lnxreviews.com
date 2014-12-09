@@ -277,24 +277,14 @@ WordPress alignment classes
 *******************/
 
 .alignnone, .alignleft {
-    text-align: left;
-}
-.alignright {
-    text-align: right;
-}
-.aligncenter {
-    text-align: center;
-}
-
-img.alignnone, img.alignleft {
     margin-left: 50%;
     transform: translateX(-100%);
 }
-img.alignright {
+.alignright {
     margin-right: 50%;
     transform: translateX(100%);
 }
-img.aligncenter {
+.aligncenter {
     margin-left: 50%;
     transform: translateX(-50);
 }
