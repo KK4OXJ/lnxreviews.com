@@ -30,9 +30,9 @@
 	<span id="top"></span>
     
 	<header>
-		<a href="/index.php" id="home_link">
+		<a href="/index.php" class="home-link">
             <img src="/tux.png" alt="Tux, the Linux penguin." class="logo">
-            <h1 id="sitetitle">LnxReviews<span id="header_small">.com</span></h1>
+            <h1 class="site-title">LnxReviews<span class="header-small">.com</span></h1>
 			</a>
     </header>
 				
