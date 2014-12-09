@@ -1,30 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/new-style.css">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico">
     
 	<title>Linux Reviews</title>
 	
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
-	<script>
-        $(document).ready(function() {
-  			$('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-      		        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-
-                    if (target.length) {
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 250);
-                        return false;
-                    };
-                };
-            });
-        });
-    </script>
+	<script src="script.js"></script>
 </head>
 <body>
 	<span id="top"></span>

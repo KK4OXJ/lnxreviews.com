@@ -5,7 +5,7 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico">
 	
-	<title><?php the_title() ?> | Linux Reviews</title>
+	<title><?php wp_title() ?> | Linux Reviews</title>
 </head>
 <body>
     <a href="/index.php">

@@ -10,7 +10,7 @@
 <?php foreach ($latest_post as $post) : setup_postdata($post); ?>
 
 <a href="<?php the_permalink() ?>">
-    <h3 class="recent-post-title"><?php the_title() ?></h3>
+    <h3 class="post-title"><?php the_title() ?></h3>
 </a>
 <div class="universal-div"><?php the_content() ?></div>
 <a href="#top" class="up">Back to top</a>
