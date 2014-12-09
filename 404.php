@@ -1,5 +1,6 @@
 <?php get_header() ?>
 
-<h1>Sorry, we couldn't find that page</h1>
+<h1 class="page-header">404</h1>
+<h2 class="small-header">Sorry, we couldn't find that page</h2>
 
 <?php get_footer() ?>
