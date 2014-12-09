@@ -17,9 +17,7 @@
         <nav class="navbar">
             <?php $latest_post_title = get_posts('numberposts = 4') ?>
             <?php foreach ($latest_post_title as $post) : setup_postdata($post); ?>
-            <!--<div class="os-link-div">-->
                 <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
-            <!--</div>-->
             <?php endforeach; ?>
 
             <div class="os-link-div">
