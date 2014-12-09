@@ -5,7 +5,7 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico">
 	
-	<title><?php wp_title() ?> | Linux Reviews</title>
+	<title><?php wp_title('') ?> | Linux Reviews</title>
 </head>
 <body>
     <a href="/index.php">
@@ -17,9 +17,9 @@
         <nav class="navbar">
             <?php $latest_post_title = get_posts('numberposts = 4') ?>
             <?php foreach ($latest_post_title as $post) : setup_postdata($post); ?>
-            <div class="os-link-div">
+            <!--<div class="os-link-div">-->
                 <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
-            </div>
+            <!--</div>-->
             <?php endforeach; ?>
 
             <div class="os-link-div">

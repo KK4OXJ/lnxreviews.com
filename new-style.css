@@ -25,6 +25,10 @@ a {
 	text-decoration: none;
 }
 
+.white {
+    color: white;
+}
+
 
 
 /*******************
@@ -101,16 +105,17 @@ Navigation
     color: white;
     line-height: 75px;
     margin: 0 20px;
-}
-
-.os-link-div {
     display: inline;
 }
+
+/*.os-link-div {
+    display: inline;
+}*/
 
 
 
 /*******************
-The reviews on the home page
+Reviews
 *******************/
 
 .reviewheaderlink {
@@ -126,29 +131,11 @@ The reviews on the home page
 	text-align: center;
 }
 
-
-/*******************
-Reviews
-*******************/
-
-ol, ul {
-    list-style: none;
-}
-
 .version {
 	font-family: sans-serif;
 	position: relative;
 	bottom: 10px;
 	left: 47px;
-}
-
-.comment-reply-title {
-    font-size: 32px;
-	margin-top: 100px;
-}
-
-.logged-in-as {
-    display: none;
 }
 
 
@@ -212,32 +199,16 @@ Headers
     margin-top: 100px;
 }
 
-#first_help {
-	margin-top: 0px;
-	margin-bottom: -5px;
-}
-
-.resources {
-	font-size: 13px;
-}
-
-.all-os-section {
-	column-count: 3;
-}
-
-.contact_header {
-	font-size: 45px;
-	margin-top: 75px;
-}
-
-#result {
-	visibility: hidden;
-}
 
 
 /*******************
-List of all reviews
+Lists
 *******************/
+
+
+ol, ul {
+    list-style: none;
+}
 
 .all-list {
 	width: 300px;
@@ -263,7 +234,7 @@ List of all reviews
 
 
 /*******************
-WordPress alignment classes
+Alignment classes
 *******************/
 
 .alignnone, .alignleft {

@@ -20,17 +20,20 @@
 			</a>
     </header>
 				
-	<div class="navbar">
-		<div class="os_review_links">
+	<header>
+            <img src="/tux.png" alt="Tux, the Linux penguin" class="logo">
+            <h1 class="site-title">LnxReviews<span class="header-small">.com</span></h1>
+        </header>			
+        
+        <nav class="navbar">
             <?php $latest_post_title = get_posts('numberposts = 4') ?>
             <?php foreach ($latest_post_title as $post) : setup_postdata($post); ?>
-            <div class="os-link-div">
+            <!--<div class="os-link-div">-->
                 <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
-            </div>
+            <!--</div>-->
             <?php endforeach; ?>
-                                        
+
             <div class="os-link-div">
-                <a href="archive.php" class="os-link">View all</a>
+                <a href="/all-versions" class="os-link">View all</a>
             </div>
-		</div>
-	</div>
+        </nav>
