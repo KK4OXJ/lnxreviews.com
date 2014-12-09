@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="description" content="Reviews of all the Linux versions">
+    <meta name="robots" content="index, follow, archive, cache, imageindex">
+    <meta name="Keywords" content="Linux, Linux reviews, LnxReviews, Reviews, Zeke Y">
+    <meta name="author" content="Zeke Y">
+    <meta lang="en_US">
+    <meta charset="utf-8">
+
 	<link rel="stylesheet" href="/new-style.css">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico">
