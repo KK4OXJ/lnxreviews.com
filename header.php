@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/new-style.css">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico">
 	
@@ -10,7 +10,7 @@
 <body>
     <a href="/index.php">
 		<header>
-            <img src="/tux.png" alt="Tux, the Linux penguin." id="logo">
+            <img src="/tux.png" alt="Tux, the Linux penguin" id="logo">
             <h1 id="sitetitle">LnxReviews<span id="header_small">.com</span></h1>			
 			
 			<div class="navbar">

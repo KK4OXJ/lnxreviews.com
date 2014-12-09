@@ -29,9 +29,9 @@
 <body>
 	<span id="top"></span>
     
-	<header id="header">
+	<header>
 		<a href="/index.php" id="home_link">
-            <img src="/tux.png" alt="Tux, the Linux penguin." id="logo">
+            <img src="/tux.png" alt="Tux, the Linux penguin." class="logo">
             <h1 id="sitetitle">LnxReviews<span id="header_small">.com</span></h1>
 			</a>
     </header>
