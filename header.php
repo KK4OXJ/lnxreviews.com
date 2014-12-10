@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="description" content="Reviews of all the Linux versions">
+    <meta name="description" content="Reviews of Linux versions">
     <meta name="robots" content="index, follow, archive, cache, imageindex">
     <meta name="Keywords" content="Linux, Linux reviews, LnxReviews, Reviews, Zeke Y">
     <meta name="author" content="Zeke Y">
     <meta lang="en_US">
     <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="public">
+    <meta name="copyright" content="&copy; 2014 LnxReviews">
    
     <link rel="stylesheet" href="/new-style.css">
     <link rel="shortcut icon" href="/favicon.ico">
