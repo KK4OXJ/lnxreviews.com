@@ -40,8 +40,6 @@
                 <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
             <?php endforeach; ?>
 
-            <div class="os-link-div">
-                <a href="/all-versions" class="os-link">View all</a>
-            </div>
+            <a href="/all-versions" class="os-link">View all</a>
         </nav>
     </a>
