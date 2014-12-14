@@ -10,9 +10,11 @@
 
     <?php endwhile; else : ?>
 
- 	<p><?php _e("Sorry, we couldn't find any posts for you :(") ?></p>
+ 	<p><?php _e("Sorry, we couldn't find any reviews for you") ?></p>
 
     <?php endif; ?>
 </div>
 
 <?php get_footer() ?>
+</body>
+</html>

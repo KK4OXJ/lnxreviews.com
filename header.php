@@ -10,7 +10,7 @@
     <meta http-equiv="cache-control" content="public">
     <meta name="copyright" content="&copy; 2014 LnxReviews">
    
-    <link rel="stylesheet" href="/new-style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico">
 	
