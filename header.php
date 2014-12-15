@@ -19,7 +19,7 @@
     <meta charset="utf-8">
     <meta http-equiv="cache-control" content="public">
    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="icon" href="favicon.ico">
 	
@@ -41,7 +41,7 @@
 		<header>
             <!--<img src="tux.png" alt="Tux, the Linux penguin" class="logo">-->
             
-            <img src="<?php header_image() ?>" alt="" class="logo">
+            <img src="<?php header_image() ?>" width="<?php echo get_custom_header()->width; ?>" alt="">
             
             <h1 class="site-title"><?php bloginfo('name') ?><span class="header-small">.com</span></h1>
         </header>			
