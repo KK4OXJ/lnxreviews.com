@@ -1,3 +1,13 @@
+<?php
+    /**
+    * Header template for the theme
+    *
+    * @package LnxReviews
+    * @subpackage LnxReviews
+    * @since LnxReviews 1.0
+    */
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,13 +20,13 @@
     <meta http-equiv="cache-control" content="public">
 
 	<link rel="stylesheet" href="/style.css">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
     
-	<title>Linux Reviews</title>
+	<title><?php wp_title('|', true, 'right') ?></title>
 	
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
-	<script src="/script.js"></script>
+	<script src="script.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,7 +42,7 @@
     
 	<header>
 		<a href="<?php bloginfo('url') ?>" class="home-link">
-            <img src="/tux.png" alt="Tux, the Linux penguin." class="logo">
+            <img src="tux.png" alt="Tux, the Linux penguin." class="logo">
             
             <h1 class="site-title"><?php bloginfo('name') ?><span class="header-small">.com</span></h1>
             
@@ -45,5 +55,5 @@
                 <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
             <?php endforeach; ?>
                
-            <a href="/all-versions" class="os-link">View all</a>
+            <a href="all-versions" class="os-link">View all</a>
         </nav>

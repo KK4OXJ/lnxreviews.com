@@ -1,3 +1,13 @@
+<?php
+    /**
+    * Header template for the theme
+    *
+    * @package LnxReviews
+    * @subpackage LnxReviews
+    * @since LnxReviews 1.0
+    */
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,11 +19,11 @@
     <meta charset="utf-8">
     <meta http-equiv="cache-control" content="public">
    
-    <link rel="stylesheet" href="/style.css">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
 	
-	<title><?php wp_title('') ?> | Linux Reviews</title>
+	<title><?php wp_title('|', true, 'right') ?></title>
 	
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script>
@@ -29,8 +39,11 @@
 <body>
     <a href="/index.php">
 		<header>
-            <img src="/tux.png" alt="Tux, the Linux penguin" class="logo">
-            <h1 class="site-title">LnxReviews<span class="header-small">.com</span></h1>
+            <!--<img src="tux.png" alt="Tux, the Linux penguin" class="logo">-->
+            
+            <img src="<?php header_image() ?>" alt="" class="logo">
+            
+            <h1 class="site-title"><?php bloginfo('name') ?><span class="header-small">.com</span></h1>
         </header>			
         
         <nav class="navbar">
@@ -39,6 +52,6 @@
                 <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
             <?php endforeach; ?>
 
-            <a href="/all-versions" class="os-link">View all</a>
+            <a href="all-versions" class="os-link">View all</a>
         </nav>
     </a>
