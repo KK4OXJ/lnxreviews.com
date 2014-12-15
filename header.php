@@ -9,21 +9,19 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes() ?>>
 <head>
-    <?php wp_head() ?>
-    
+    <meta charset="<?php bloginfo('charset') ?>">
     <meta name="robots" content="index, follow, archive, cache, imageindex">
     <meta name="Keywords" content="Linux, Linux reviews, LnxReviews, Reviews, Zeke Y">
     <meta name="author" content="Zeke Y">
-    <meta charset="utf-8">
     <meta http-equiv="cache-control" content="public">
    
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
+    <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
+    <link rel="icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
 	
-	<title><?php wp_title('|', true, 'right') ?></title>
+	<title><?php wp_title('') ?> | <?php bloginfo('name') ?></title>
 	
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script>
@@ -35,16 +33,16 @@
         ga('create', 'UA-57130697-1', 'auto');
         ga('send', 'pageview');
     </script>
+    
+    <?php wp_head() ?>
 </head>
 <body>
-    <a href="/index.php">
+    <a href="<?php bloginfo('url') ?>" class="home-link">
 		<header>
-            <!--<img src="tux.png" alt="Tux, the Linux penguin" class="logo">-->
-            
-            <img src="<?php header_image() ?>" width="<?php echo get_custom_header()->width; ?>" alt="">
+            <img src="<?php header_image() ?>" alt="Logo" class="logo">
             
             <h1 class="site-title"><?php bloginfo('name') ?><span class="header-small">.com</span></h1>
-        </header>			
+        </header>
         
         <nav class="navbar">
             <?php $latest_post_title = get_posts('numberposts = 4') ?>

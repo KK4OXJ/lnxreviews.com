@@ -9,24 +9,22 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes() ?>>
 <head>
-    <?php wp_head() ?>
-   
+    <meta charset="utf-8">
     <meta name="robots" content="index, follow, archive, cache, imageindex">
     <meta name="Keywords" content="Linux, Linux reviews, LnxReviews, Reviews, Zeke Y">
     <meta name="author" content="Zeke Y">
-    <meta charset="utf-8">
     <meta http-equiv="cache-control" content="public">
 
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
+    <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
+    <link rel="icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
     
-	<title><?php wp_title('|', true, 'right') ?></title>
+	<title><?php bloginfo('name') ?></title>
 	
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
-	<script src="script.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory') ?>/script.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -35,14 +33,16 @@
 
         ga('create', 'UA-57130697-1', 'auto');
         ga('send', 'pageview');
-</script>
+    </script>
+
+    <?php wp_head() ?>
 </head>
 <body>
 	<span id="top"></span>
     
 	<header>
 		<a href="<?php bloginfo('url') ?>" class="home-link">
-            <img src="tux.png" alt="Tux, the Linux penguin." class="logo">
+            <img src="<?php bloginfo('stylesheet_directory') ?>/tux.png" alt="Logo" class="logo">
             
             <h1 class="site-title"><?php bloginfo('name') ?><span class="header-small">.com</span></h1>
 			</a>
