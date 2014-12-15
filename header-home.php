@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="description" content="Reviews of Linux versions">
+    <?php wp_head() ?>
+   
     <meta name="robots" content="index, follow, archive, cache, imageindex">
     <meta name="Keywords" content="Linux, Linux reviews, LnxReviews, Reviews, Zeke Y">
     <meta name="author" content="Zeke Y">
-    <meta lang="en_US">
     <meta charset="utf-8">
     <meta http-equiv="cache-control" content="public">
-    <meta name="copyright" content="&copy; 2014 LnxReviews">
 
 	<link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -32,7 +31,7 @@
 	<span id="top"></span>
     
 	<header>
-		<a href="/index.php" class="home-link">
+		<a href="<?php bloginfo('url') ?>" class="home-link">
             <img src="/tux.png" alt="Tux, the Linux penguin." class="logo">
             
             <h1 class="site-title"><?php bloginfo('name') ?><span class="header-small">.com</span></h1>
