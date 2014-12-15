@@ -2,11 +2,11 @@
     <nav>
         <a href="/about" class="footer-link about">About</a>
         <?php
-            if (is_user_logged_in() && is_user_admin()):
+            if (current_user_can('edit_posts')):
         ?>
-        <a href="/wp-admin">Admin</a>
+        <a href="/wp-admin" class="footer-link admin">Admin</a>
         <?php
-            else if (is_user_logged_in()):
+            elseif (is_user_logged_in()):
         ?>
         <a href="/wp-admin/post-new.php" class="footer-link admin">Write a review</a>
         <?php
