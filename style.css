@@ -286,6 +286,66 @@ footer {
 	color: black;
 	font-family: serif;
 	font-size: 12px;
+    line-height: 24px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    user-select: text;
+}
+
+
+
+/*******************
+Media Queries
+*******************/
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .site-title {
+        font-size: 50px;
+    }
+    
+    .os-link:not(:nth-last-child(1)) {
+        display: none;
+    }
+    .os-link:nth-last-child(1):after {
+        content: " reviews";
+    }
+    
+    .universal-div {
+        width: 75%;
+        max-height: 500px;
+        
+        margin-left: -36%;
+    }
+    .universal-div img:after {
+        display: none;
+        content: "View image";
+    }
+}
+
+@media (max-width: 500px) {
+    .logo {
+        margin-bottom: 0;
+    }
+    .site-title {
+        font-size: 30px;
+    }
+    .header-small {
+        font-size: 16px;
+    }
+    
+    .post-title {
+        font-size: 26px;
+    }
+    .up {
+        font-size: 14px;
+    }
+    
+    .footer-link {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 8px;
+    }
 }
 
 
