@@ -100,19 +100,16 @@ Navigation
 	width: 100%;
 	height: 75px;
 	opacity: 0.9;
+    
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    
-    display: inline-flex;
 }
 
 .os-link {
     color: white;
     line-height: 75px;
-/*    margin: 0 20px;*/
-/*    display: inline;*/
-/*    display: inline-flex;*/
+    margin: 0 20px;
 }
 
 
@@ -303,11 +300,17 @@ footer {
 Media Queries
 *******************/
 
-/*@media (min-width: 700px) and (max-width: 850px) {
+@media (min-width: 725px) and (max-width: 850px) {
     .os-link {
-        margin: 0 1.5%;
+        margin: 0 7px;
     }
-}*/
+}
+
+@media (min-width: 700px) and (max-width: 725px) {
+    .os-link {
+        margin: 0 5px;
+    }
+}
 
 @media (min-width: 300px) and (max-width: 700px) {
     
@@ -339,8 +342,6 @@ Media Queries
     
     .universal-div {
         width: 75%;
-        max-height: 500px;
-        
         margin-left: -36%;
     }
     .universal-div img:after {
@@ -356,13 +357,25 @@ Media Queries
     *****/
     
     .logo {
-        margin-bottom: 0;
+        width: 70px;
+        margin-bottom: -20px;
     }
     .site-title {
         font-size: 1.875em;
     }
     .header-small {
         font-size: 0.75em;
+    }
+    
+    /*****
+    Navigation
+    *****/
+    
+    .os-link:not(:nth-last-child(1)) {
+        display: none;
+    }
+    .os-link:nth-last-child(1):after {
+        content: " reviews";
     }
     
     /*****
@@ -384,6 +397,19 @@ Media Queries
     .tiny_header {
         font-size: 0.5em;
         margin-top: 100px;
+    }
+    
+    /*****
+    Content Divs
+    *****/
+    
+    .universal-div {
+        width: 75%;
+        margin-left: -36%;
+    }
+    .universal-div img:after {
+        display: none;
+        content: "View image";
     }
     
     /*****
