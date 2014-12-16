@@ -41,18 +41,18 @@
 	<span id="top"></span>
     
 	<header>
-		<a href="<?php bloginfo('url') ?>" class="home-link">
-            <img src="<?php bloginfo('stylesheet_directory') ?>/tux.png" alt="Logo" class="logo">
+		<a href="<?php echo esc_url(home_url()) ?>" class="home-link">
+            <img src="<?php header_image() ?>" alt="Logo" class="logo">
             
             <h1 class="site-title"><?php bloginfo('name') ?><span class="header-small">.com</span></h1>
 			</a>
     </header>
         
-        <nav class="navbar">
-            <?php $latest_post_title = get_posts('numberposts = 4') ?>
-            <?php foreach ($latest_post_title as $post) : setup_postdata($post); ?>
-                <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
-            <?php endforeach; ?>
-               
-            <a href="all-versions" class="os-link">View all</a>
-        </nav>
+    <nav class="navbar">
+        <?php $latest_post_title = get_posts('numberposts = 4') ?>
+        <?php foreach ($latest_post_title as $post) : setup_postdata($post); ?>
+            <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
+        <?php endforeach; ?>
+
+        <a href="all-versions" class="os-link">View all</a>
+    </nav>

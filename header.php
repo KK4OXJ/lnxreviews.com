@@ -37,7 +37,7 @@
     <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
-    <a href="<?php bloginfo('url') ?>" class="home-link">
+    <a href="<?php echo esc_url(home_url()) ?>" class="home-link">
 		<header>
             <img src="<?php header_image() ?>" alt="Logo" class="logo">
             

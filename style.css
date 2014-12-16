@@ -2,7 +2,9 @@
 Theme Name: LnxReviews
 Author: Zeke Y
 Version: 1.0
-Description: The LnxReviews.com theme. 
+Description: The LnxReviews.com theme.
+License: MIT
+License URI: http://opensource.org/licenses/MIT
 */
 
 @import url(http://openfontlibrary.org/face/crusoe-text);
@@ -81,7 +83,7 @@ Header
     font-size: 0.5em;
 }
 
-small, .wp-caption-text, .small-review {
+small, .wp-caption-text, .small-review, .bypostauthor {
     text-rendering: optimizeLegibility;
     font-size: 0.625em;
     font-style: italic;
