@@ -103,13 +103,16 @@ Navigation
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+    
+    display: inline-flex;
 }
 
 .os-link {
     color: white;
     line-height: 75px;
-    margin: 0 20px;
-    display: inline;
+/*    margin: 0 20px;*/
+/*    display: inline;*/
+/*    display: inline-flex;*/
 }
 
 
@@ -300,6 +303,12 @@ footer {
 Media Queries
 *******************/
 
+/*@media (min-width: 700px) and (max-width: 850px) {
+    .os-link {
+        margin: 0 1.5%;
+    }
+}*/
+
 @media (min-width: 300px) and (max-width: 700px) {
     
     /*****
@@ -406,7 +415,11 @@ Media Queries
 Selection
 *******************/
 
-::selection, ::-moz-selection {
+::selection {
 	background-color: black;
+	color: white;
+}
+::-moz-selection {
+	background-color: rgba(0, 0, 0, 0.75);
 	color: white;
 }
