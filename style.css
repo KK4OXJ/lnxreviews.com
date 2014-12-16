@@ -43,7 +43,7 @@ The container for content
 	left: 50%;
 	margin-left: -250px;
 	border-radius: 7px;
-	font-size: 110%;
+	font-size: 1.1em;
 	padding: 7px;
 	line-height: 25px;
 	word-wrap: break-word;
@@ -71,18 +71,18 @@ Header
 
 .site-title {
 	color: white;
-	font-size: 70px;
+	font-size: 4.375em;
 	font-family: 'Crusoe Text', sans-serif;
 }
 
 .header-small {
 	font-family: sans-serif;
-    font-size: 28px;
+    font-size: 1.75em;
 }
 
 small, .wp-caption-text, .small-review {
     text-rendering: optimizeLegibility;
-    font-size: 10px;
+    font-size: 0.625em;
     font-style: italic;
 }
 
@@ -123,7 +123,7 @@ Reviews
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
-	font-size: 100%;
+	font-size: 1em;
 	width: 100%;
 	text-align: center;
 }
@@ -143,14 +143,14 @@ Forms
 
 .form-text {
 	font-family: 'Crusoe Text', sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	padding: 5px;
 	width: 280px;
 }
 
 .textarea-form {
     font-family: 'Crusoe Text', sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	padding: 5px;
 	height: 150px;
 	width: 280px;
@@ -161,7 +161,7 @@ Forms
 
 .submit-form {
     font-family: 'Crusoe Text', sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	padding: 5px 7px 5px 7px;
 	width: 100px;
 	cursor: pointer;
@@ -174,25 +174,25 @@ Headers
 *******************/
 
 .big-header {
-	font-size: 56px;
+	font-size: 3.5em;
 	margin-top: 100px;
 }
 .page-header {
-	font-size: 45px;
+	font-size: 2.8125em;
 	margin-top: 100px;
 }
 .small-header {
+    font-size: 2em;
 	margin-top: 50px;
-	font-size: 32px;
 }
 .tiny_header {
+    font-size: 1.5em;
 	margin-top: 100px;
-	font-size: 24px;
 }
 
 .post-title {
     color: white;
-    font-size: 32px;
+    font-size: 2em;
     margin-top: 100px;
 }
 
@@ -201,7 +201,6 @@ Headers
 /*******************
 Lists
 *******************/
-
 
 ol, ul {
     list-style: none;
@@ -254,7 +253,7 @@ Footer
 *******************/
 
 footer {
-	font-size: 17px;
+	font-size: 1.0625em;
 	line-height: 75px;
 	margin-top: 25px;
 }
@@ -285,7 +284,7 @@ footer {
 .copyright {
 	color: black;
 	font-family: serif;
-	font-size: 12px;
+	font-size: 0.75em;
     line-height: 24px;
     -webkit-user-select: text;
     -moz-user-select: text;
@@ -300,7 +299,7 @@ Media Queries
 
 @media (min-width: 300px) and (max-width: 700px) {
     .site-title {
-        font-size: 50px;
+        font-size: 3.125em;
     }
     
     .os-link:not(:nth-last-child(1)) {
@@ -327,24 +326,24 @@ Media Queries
         margin-bottom: 0;
     }
     .site-title {
-        font-size: 30px;
+        font-size: 1.875em;
     }
     .header-small {
-        font-size: 16px;
+        font-size: 1em;
     }
     
     .post-title {
-        font-size: 26px;
+        font-size: 1.625em;
     }
     .up {
-        font-size: 14px;
+        font-size: 0.875em;
     }
     
     .footer-link {
-        font-size: 12px;
+        font-size: 0.75em;
     }
     .copyright {
-        font-size: 8px;
+        font-size: 0.5em;
     }
 }
 
