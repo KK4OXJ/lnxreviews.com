@@ -8,8 +8,7 @@
  		<?php the_content(); ?>
  		
  		<small class="small-review">
-            Reviewed by 
-            <?php the_author_posts_link() ?>. Rating: 
+            Rating: 
             <?php
                 $rating = get_post_custom_values('rating');
                 foreach ($rating as $key => $value) {

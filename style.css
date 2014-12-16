@@ -403,15 +403,10 @@ Media Queries
 
 
 /*******************
-Selection color
+Selection
 *******************/
 
-::selection {
+::selection, ::-moz-selection {
 	background-color: black;
-	color: white;
-}
-
-::-moz-selection {
-	background-color: rgba(0, 0, 0, 0.75);
 	color: white;
 }
