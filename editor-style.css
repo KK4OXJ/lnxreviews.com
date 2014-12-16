@@ -12,14 +12,3 @@ body {
 	color: white;
 	font-family: 'Crusoe Text', sans-serif;
 }
-
-
-
-/*******************
-Selection
-*******************/
-
-::selection, ::-moz-selection {
-	background-color: black;
-	color: white;
-}
