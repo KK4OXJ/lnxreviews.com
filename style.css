@@ -77,7 +77,7 @@ Header
 
 .header-small {
 	font-family: sans-serif;
-    font-size: 1.75em;
+    font-size: 0.5em;
 }
 
 small, .wp-caption-text, .small-review {
@@ -170,7 +170,7 @@ Forms
 
 
 /*******************
-Headers
+Text Headers
 *******************/
 
 .big-header {
@@ -298,9 +298,21 @@ Media Queries
 *******************/
 
 @media (min-width: 300px) and (max-width: 700px) {
+    
+    /*****
+    Header
+    *****/
+    
     .site-title {
         font-size: 3.125em;
     }
+    .header-small {
+        font-size: 0.5em;
+    }
+    
+    /*****
+    Nav Links
+    *****/
     
     .os-link:not(:nth-last-child(1)) {
         display: none;
@@ -308,6 +320,10 @@ Media Queries
     .os-link:nth-last-child(1):after {
         content: " reviews";
     }
+    
+    /*****
+    Content Divs
+    *****/
     
     .universal-div {
         width: 75%;
@@ -322,6 +338,11 @@ Media Queries
 }
 
 @media (max-width: 500px) {
+    
+    /*****
+    Header
+    *****/
+    
     .logo {
         margin-bottom: 0;
     }
@@ -329,8 +350,33 @@ Media Queries
         font-size: 1.875em;
     }
     .header-small {
-        font-size: 1em;
+        font-size: 0.75em;
     }
+    
+    /*****
+    Text Headers
+    *****/
+
+    .big-header {
+        font-size: 2.5em;
+        margin-top: 50px;
+    }
+    .page-header {
+        font-size: 1.8125em;
+        margin-top: 50px;
+    }
+    .small-header {
+        font-size: 1em;
+        margin-top: 25px;
+    }
+    .tiny_header {
+        font-size: 0.5em;
+        margin-top: 100px;
+    }
+    
+    /*****
+    Reviews
+    *****/
     
     .post-title {
         font-size: 1.625em;
@@ -338,6 +384,10 @@ Media Queries
     .up {
         font-size: 0.875em;
     }
+    
+    /*****
+    Footer Stuff
+    *****/
     
     .footer-link {
         font-size: 0.75em;
