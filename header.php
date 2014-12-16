@@ -18,8 +18,8 @@
     <meta http-equiv="cache-control" content="public">
    
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
-    <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
-    <link rel="icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/favicon.ico">
+    <link rel="icon" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/favicon.ico">
 	
 	<title><?php wp_title('') ?> | <?php bloginfo('name') ?></title>
 	
@@ -36,7 +36,7 @@
     
     <?php wp_head() ?>
 </head>
-<body>
+<body <?php body_class() ?>>
     <a href="<?php bloginfo('url') ?>" class="home-link">
 		<header>
             <img src="<?php header_image() ?>" alt="Logo" class="logo">

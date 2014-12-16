@@ -18,13 +18,13 @@
     <meta http-equiv="cache-control" content="public">
 
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
-    <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
-    <link rel="icon" href="<?php bloginfo('stylesheet_directory') ?>/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/favicon.ico">
+    <link rel="icon" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/favicon.ico">
     
 	<title><?php bloginfo('name') ?></title>
 	
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
-	<script src="<?php bloginfo('stylesheet_directory') ?>/script.js"></script>
+	<script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -37,7 +37,7 @@
 
     <?php wp_head() ?>
 </head>
-<body>
+<body <?php body_class() ?>>
 	<span id="top"></span>
     
 	<header>
