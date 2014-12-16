@@ -10,4 +10,9 @@
         'default-color' => '888888'
     );
     add_theme_support('custom-background', $custom_background_defaults);
+
+    function custom_editor_styles() {
+        add_editor_style('editor-style.css');
+    }
+    add_action('after_setup_theme', 'custom_editor_styles');
 ?>
