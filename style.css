@@ -50,7 +50,8 @@ The container for content
     overflow: hidden;
 }
 .universal-div img {
-    max-width: 100% !important;
+    max-width: 495px;
+    max-height: 495px;
 }
 
 

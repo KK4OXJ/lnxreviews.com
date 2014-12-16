@@ -5,7 +5,7 @@
 <div class="post">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
  	<div class="universal-div">
- 		<?php the_attachment_link() ?>
+ 		<?php the_attachment_link('', true) ?>
  	</div>
 
  	</div>
