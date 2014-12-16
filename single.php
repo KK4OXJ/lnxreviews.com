@@ -21,7 +21,7 @@
 
  	</div>
 
-    <?php endwhile; else : ?>
+    <?php endwhile; else: ?>
 
  	<p><?php _e("Sorry, we couldn't find any reviews for you") ?></p>
 
