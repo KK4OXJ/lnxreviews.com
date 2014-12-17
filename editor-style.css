@@ -26,6 +26,17 @@ Image Captions
 
 
 /*******************
+Links
+*******************/
+
+a, a:link, a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/*******************
 Selection
 *******************/
 
