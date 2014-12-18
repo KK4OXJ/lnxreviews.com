@@ -97,6 +97,7 @@ Navigation
 
 .navbar, footer {
 	background-color: rgb(17, 17, 17);
+	max-width: 5000px;
 	width: 100%;
 	height: 75px;
 	opacity: 0.9;
@@ -109,7 +110,7 @@ Navigation
 .os-link {
     color: white;
     line-height: 75px;
-    margin: 0 20px;
+    margin: 0 16px;
 }
 
 
@@ -300,13 +301,13 @@ footer {
 Media Queries
 *******************/
 
-@media (min-width: 800px) and (max-width: 925px) {
+@media (min-width: 850px) and (max-width: 925px) {
     .os-link {
         margin: 0 7px;
     }
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 850px) {
     
     /*****
     Header
