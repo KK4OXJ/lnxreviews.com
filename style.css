@@ -301,13 +301,13 @@ footer {
 Media Queries
 *******************/
 
-@media (min-width: 850px) and (max-width: 925px) {
+@media screen and (min-width: 850px) and (max-width: 925px) {
     .os-link {
         margin: 0 7px;
     }
 }
 
-@media (min-width: 300px) and (max-width: 850px) {
+@media screen and (min-width: 300px) and (max-width: 850px) {
     
     /*****
     Header
@@ -345,7 +345,7 @@ Media Queries
     }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
     
     /*****
     Header
