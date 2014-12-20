@@ -14,7 +14,7 @@
     <meta charset="<?php bloginfo('charset') ?>">
     <meta name="robots" content="index, follow, archive, cache, imageindex">
     <meta name="Keywords" content="linux operating systems linux distro distrobution linux reviews">
-    <meta name="description" content="Linux Reviews - Your source for accurate and up to date Linux reviews">
+    <meta name="description" content="<?php bloginfo('description') ?>">
     <meta name="author" content="Zeke Y">
     <meta http-equiv="cache-control" content="public">
    
