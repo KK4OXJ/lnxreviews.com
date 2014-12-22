@@ -17,9 +17,9 @@
     <meta name="author" content="Zeke Y">
     <meta http-equiv="cache-control" content="public" max-age="604800">
     <meta name=viewport content="width=device-width, initial-scale=1">
-   
+	
+	<link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/crusoe-text.min.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
-    <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/crusoe-text.min.css">
     <link rel="shortcut icon" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/favicon.ico">
     <link rel="icon" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/favicon.ico">
 	
