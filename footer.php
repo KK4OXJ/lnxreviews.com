@@ -22,7 +22,7 @@
     <?php wp_footer() ?>
 </footer>
 
-<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/jquery.min.js"></script>
 
 <?php
 	if (is_home()):	
