@@ -9,8 +9,6 @@ License URI: http://opensource.org/licenses/MIT
 
 /*@import url('http://openfontlibrary.org/face/crusoe-text');*/
 
-@import url('<?php echo esc_url(get_stylesheet_directory_uri()) ?>/crusoe-text.min.css');
-
 
 
 /*******************
