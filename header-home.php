@@ -13,9 +13,10 @@
 <head>
     <meta charset="<?php bloginfo('charset') ?>">
     <meta name="robots" content="index, follow, archive, cache, imageindex">
-    <meta name="Keywords" content="linux operating systems linux distro distrobution linux reviews">
+    <meta name="Keywords" content="linux operating systems linux distro distribution linux reviews">
     <meta name="author" content="Zeke Y">
     <meta http-equiv="cache-control" content="public">
+    <meta name=viewport content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
     <link rel="shortcut icon" href="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/favicon.ico">
