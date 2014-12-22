@@ -13,7 +13,7 @@
 <head>
     <meta charset="<?php bloginfo('charset') ?>">
     <meta name="robots" content="index, follow, archive, cache, imageindex">
-    <meta name="Keywords" content="linux operating systems, linux distro, linux distribution, linux reviews linux, reviews, linux os, os">
+    <meta name="Keywords" content="linux operating systems, linux distro, linux distribution, linux reviews, linux, reviews">
     <meta name="author" content="Zeke Y">
     <meta http-equiv="cache-control" content="public" max-age="604800">
     <meta name=viewport content="width=device-width, initial-scale=1">
