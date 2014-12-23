@@ -25,12 +25,11 @@
     <?php wp_footer() ?>
 </footer>
 
-<script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/jquery.min.js"></script>
-
 <?php
 	if (is_home()):	
 ?>
-<script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
 <?php endif; ?>
 
 <script>
