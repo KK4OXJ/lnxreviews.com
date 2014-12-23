@@ -262,7 +262,7 @@ footer {
 	margin-top: 25px;
 }
 
-.about {
+.left {
 	float: left;
 	margin-left: 25px;
 	font-weight: 300;
@@ -270,7 +270,7 @@ footer {
 .center {
 	position: relative;
 }
-.contact {
+.right {
 	float: right;
 	margin-right: 25px;
 }

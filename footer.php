@@ -1,6 +1,6 @@
 <footer>
   <nav>
-    <a href="/about" class="footer-link about">About</a>
+    <a href="/about" class="footer-link left">About</a>
       <?php if (current_user_can('edit_posts')): ?>
         <a href="/wp-admin" class="footer-link center">Admin</a>
       
@@ -17,7 +17,7 @@
       ?>
         <a href="/wp-login.php" class="footer-link center">Login</a>
       <?php endif; ?>
-      <a href="/contact" class="footer-link contact">Contact</a>
+      <a href="/contact" class="footer-link right">Contact</a>
     </nav>
 
     <p class="copyright">&copy; Copyrighted 2014 LnxReviews. Designed by Zeke Y</p>
