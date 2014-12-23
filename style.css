@@ -7,7 +7,7 @@ License: MIT
 License URI: http://opensource.org/licenses/MIT
 */
 
-/*@import url('http://openfontlibrary.org/face/crusoe-text');*/
+
 
 /*******************
 General
@@ -312,20 +312,6 @@ footer {
 /*******************
 Media Queries
 *******************/
-
-@media screen and (min-width: 500px) {
-  @import url('https://raw.githubusercontent.com/KK4OXJ/lnxreviews.com/master/crusoe-text.min.css');
-  
-  body {
-    font-family: 'Crusoe Text';
-  }
-}
-
-@media screen and (max-width: 499px) {
-  body {
-    font-family: sans-serif;
-  }
-}
 
 @media screen and (min-width: 850px) and (max-width: 925px) {
   .os-link {
