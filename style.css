@@ -16,20 +16,20 @@ General
 *******************/
 
 body {
-	background-color: rgb(136, 136, 136);
-    text-align: center;
-	color: white;
-	font-family: 'Crusoe Text', sans-serif;
+  background-color: rgb(136, 136, 136);
+  text-align: center;
+  color: white;
+  font-family: 'Crusoe Text', sans-serif;
 }
 
 a {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .white {
-    color: white;
+  color: white;
 }
 
 
@@ -39,22 +39,22 @@ The container for content
 *******************/
 
 .universal-div {
-	width: 500px;
-	background-color: white;
-	color: black;
-	position: relative;
-	left: 50%;
-	margin-left: -250px;
-	border-radius: 7px;
-	font-size: 1.1em;
-	padding: 7px;
-	line-height: 25px;
-	word-wrap: break-word;
-    overflow: hidden;
+  width: 500px;
+  background-color: white;
+  color: black;
+  position: relative;
+  left: 50%;
+  margin-left: -250px;
+  border-radius: 7px;
+  font-size: 1.1em;
+  padding: 7px;
+  line-height: 25px;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 .universal-div img {
-    max-width: 495px;
-    max-height: 495px;
+  max-width: 495px;
+  max-height: 495px;
 }
 
 
@@ -64,29 +64,29 @@ Header
 *******************/
 
 .logo {
-	width: 100px;
-	margin-bottom: -50px;
+  width: 100px;
+  margin-bottom: -50px;
 }
 
 .home-link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .site-title {
-	color: white;
-	font-size: 4.375em;
-	font-family: 'Crusoe Text', sans-serif;
+  color: white;
+  font-size: 4.375em;
+  font-family: 'Crusoe Text', sans-serif;
 }
 
 .header-small {
-	font-family: sans-serif;
-    font-size: 0.5em;
+  font-family: sans-serif;
+  font-size: 0.5em;
 }
 
 small, .wp-caption-text, .small-review, .bypostauthor {
-    text-rendering: optimizeLegibility;
-    font-size: 0.625em;
-    font-style: italic;
+  text-rendering: optimizeLegibility;
+  font-size: 0.625em;
+  font-style: italic;
 }
 
 
@@ -96,21 +96,21 @@ Navigation
 *******************/
 
 .navbar, footer {
-	background-color: rgb(17, 17, 17);
-	max-width: 5000px;
-	width: 100%;
-	height: 75px;
-	opacity: 0.9;
-    
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
+  background-color: rgb(17, 17, 17);
+  max-width: 5000px;
+  width: 100%;
+  height: 75px;
+  opacity: 0.9;
+  
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .os-link {
-    color: white;
-    line-height: 75px;
-    margin: 0 16px;
+  color: white;
+  line-height: 75px;
+  margin: 0 16px;
 }
 
 
@@ -120,23 +120,23 @@ Reviews
 *******************/
 
 .reviewheaderlink {
-	text-decoration: none;
+  text-decoration: none;
 }
-			
+    
 .up {
-	text-decoration: none;
-	color: white;
-	font-weight: 700;
-	font-size: 1em;
-	width: 100%;
-	text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  width: 100%;
+  text-align: center;
 }
 
 .version {
-	font-family: sans-serif;
-	position: relative;
-	bottom: 10px;
-	left: 47px;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 10px;
+  left: 47px;
 }
 
 
@@ -145,30 +145,44 @@ Reviews
 Forms
 *******************/
 
+form {
+  width: 100vw;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+form p {
+  width: 50%;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 .form-text {
-	font-family: 'Crusoe Text', sans-serif;
-	font-size: 1.25em;
-	padding: 5px;
-	width: 280px;
+  font-family: 'Crusoe Text', sans-serif;
+  font-size: 1.25em;
+  padding: 5px;
+  width: 280px;
 }
 
 .textarea-form {
-    font-family: 'Crusoe Text', sans-serif;
-	font-size: 1.25em;
-	padding: 5px;
-	height: 150px;
-	width: 280px;
-	max-width: 75%;
-	min-width: 280px;
-	min-height: 150px;
+  font-family: 'Crusoe Text', sans-serif;
+  font-size: 1.25em;
+  padding: 5px;
+  height: 150px;
+  width: 280px;
+  max-width: 75%;
+  min-width: 280px;
+  min-height: 150px;
 }
 
 .submit-form {
-    font-family: 'Crusoe Text', sans-serif;
-	font-size: 1.25em;
-	padding: 5px 7px 5px 7px;
-	width: 100px;
-	cursor: pointer;
+  font-family: 'Crusoe Text', sans-serif;
+  font-size: 1.25em;
+  padding: 5px 7px 5px 7px;
+  width: 100px;
+  cursor: pointer;
 }
 
 
@@ -178,26 +192,26 @@ Text Headers
 *******************/
 
 .big-header {
-	font-size: 3.5em;
-	margin-top: 100px;
+  font-size: 3.5em;
+  margin-top: 100px;
 }
 .page-header {
-	font-size: 2.8125em;
-	margin-top: 100px;
+  font-size: 2.8125em;
+  margin-top: 100px;
 }
 .small-header {
-    font-size: 2em;
-	margin-top: 50px;
+  font-size: 2em;
+  margin-top: 50px;
 }
 .tiny_header {
-    font-size: 1.5em;
-	margin-top: 100px;
+  font-size: 1.5em;
+  margin-top: 100px;
 }
 
 .post-title {
-    color: white;
-    font-size: 2em;
-    margin-top: 100px;
+  color: white;
+  font-size: 2em;
+  margin-top: 100px;
 }
 
 
@@ -207,28 +221,28 @@ Lists
 *******************/
 
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 
 .all-list {
-	width: 300px;
-	padding: 0px;
-	position: relative;
-	left: 50%;
-	margin-left: -150px;
+  width: 300px;
+  padding: 0px;
+  position: relative;
+  left: 50%;
+  margin-left: -150px;
 }
 
 .all-list li {
-    width: 300px;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    margin-left: -150px;
-    list-style: none;
+  width: 300px;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  margin-left: -150px;
+  list-style: none;
 }
 
 .all-list li a {
-	color: white;
+  color: white;
 }
 
 
@@ -238,16 +252,16 @@ Alignment classes
 *******************/
 
 .alignnone, .alignleft {
-    margin-left: 50%;
-    transform: translateX(-100%);
+  margin-left: 50%;
+  transform: translateX(-100%);
 }
 .alignright {
-    margin-right: 50%;
-    transform: translateX(100%);
+  margin-right: 50%;
+  transform: translateX(100%);
 }
 .aligncenter {
-    margin-left: 50%;
-    transform: translateX(-50%);
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 
@@ -257,42 +271,42 @@ Footer
 *******************/
 
 footer {
-	font-size: 1.0625em;
-	line-height: 75px;
-	margin-top: 25px;
+  font-size: 1.0625em;
+  line-height: 75px;
+  margin-top: 25px;
 }
 
 .left {
-	float: left;
-	margin-left: 25px;
-	font-weight: 300;
+  float: left;
+  margin-left: 25px;
+  font-weight: 300;
 }
 .center {
-	position: relative;
+  position: relative;
 }
 .right {
-	float: right;
-	margin-right: 25px;
+  float: right;
+  margin-right: 25px;
 }
 
 .footer-link {
-	color: white;
-	text-decoration: none;
-	font-family: serif;
-	font-weight: 300;
+  color: white;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: 300;  
 }
 .footer-link:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .copyright {
-	color: black;
-	font-family: serif;
-	font-size: 0.75em;
-    line-height: 24px;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    user-select: text;
+  color: black;
+  font-family: serif;
+  font-size: 0.75em;
+  line-height: 24px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
 }
 
 
@@ -302,132 +316,132 @@ Media Queries
 *******************/
 
 @media screen and (min-width: 850px) and (max-width: 925px) {
-    .os-link {
-        margin: 0 7px;
-    }
+  .os-link {
+  margin: 0 7px;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 850px) {
-    
-    /*****
-    Header
-    *****/
-    
-    .site-title {
-        font-size: 3.125em;
-    }
-    .header-small {
-        font-size: 0.5em;
-    }
-    
-    /*****
-    Nav Links
-    *****/
-    
-    .os-link:not(:nth-last-child(1)) {
-        display: none;
-    }
-    .os-link:nth-last-child(1):after {
-        content: " reviews";
-    }
-    
-    /*****
-    Content Divs
-    *****/
-    
-    .universal-div {
-        width: 75%;
-        margin-left: -36%;
-    }
-    .universal-div img:after {
-        display: none;
-        content: "View image";
-    }
+  
+  /*****
+  Header
+  *****/
+  
+  .site-title {
+    font-size: 3.125em;
+  }
+  .header-small {
+    font-size: 0.5em;
+  }
+  
+  /*****
+  Nav Links
+  *****/
+  
+  .os-link:not(:nth-last-child(1)) {
+    display: none;
+  }
+  .os-link:nth-last-child(1):after {
+    content: " reviews";
+  }
+  
+  /*****
+  Content Divs
+  *****/
+  
+  .universal-div {
+    width: 75%;
+    margin-left: -36%;
+  }
+  .universal-div img:after {
+    display: none;
+    content: "View image";
+  }
 }
 
 @media screen and (max-width: 500px) {
-    
-    /*****
-    Header
-    *****/
-    
-    .logo {
-        width: 70px;
-        margin-bottom: -20px;
-    }
-    .site-title {
-        font-size: 1.875em;
-    }
-    .header-small {
-        font-size: 0.75em;
-    }
-    
-    /*****
-    Navigation
-    *****/
-    
-    .os-link:not(:nth-last-child(1)) {
-        display: none;
-    }
-    .os-link:nth-last-child(1):after {
-        content: " reviews";
-    }
-    
-    /*****
-    Text Headers
-    *****/
+  
+  /*****
+  Header
+  *****/
+  
+  .logo {
+    width: 70px;
+    margin-bottom: -20px;
+  }
+  .site-title {
+    font-size: 1.875em;
+  }
+  .header-small {
+    font-size: 0.75em;
+  }
+  
+  /*****
+  Navigation
+  *****/
+  
+  .os-link:not(:nth-last-child(1)) {
+    display: none;
+  }
+  .os-link:nth-last-child(1):after {
+    content: " reviews";
+  }
+  
+  /*****
+  Text Headers
+  *****/
 
-    .big-header {
-        font-size: 2.5em;
-        margin-top: 50px;
-    }
-    .page-header {
-        font-size: 1.8125em;
-        margin-top: 50px;
-    }
-    .small-header {
-        font-size: 1em;
-        margin-top: 25px;
-    }
-    .tiny_header {
-        font-size: 0.5em;
-        margin-top: 100px;
-    }
-    
-    /*****
-    Content Divs
-    *****/
-    
-    .universal-div {
-        width: 75%;
-        margin-left: -36%;
-    }
-    .universal-div img:after {
-        display: none;
-        content: "View image";
-    }
-    
-    /*****
-    Reviews
-    *****/
-    
-    .post-title {
-        font-size: 1.625em;
-    }
-    .up {
-        font-size: 0.875em;
-    }
-    
-    /*****
-    Footer Stuff
-    *****/
-    
-    .footer-link {
-        font-size: 0.75em;
-    }
-    .copyright {
-        font-size: 0.5em;
-    }
+  .big-header {
+    font-size: 2.5em;
+    margin-top: 50px;
+  }
+  .page-header {
+    font-size: 1.8125em;
+    margin-top: 50px;
+  }
+  .small-header {
+    font-size: 1em;
+    margin-top: 25px;
+  }
+  .tiny_header {
+    font-size: 0.5em;
+    margin-top: 100px;
+  }
+  
+  /*****
+  Content Divs
+  *****/
+  
+  .universal-div {
+    width: 75%;
+    margin-left: -36%;
+  }
+  .universal-div img:after {
+    display: none;
+    content: "View image";
+  }
+  
+  /*****
+  Reviews
+  *****/
+  
+  .post-title {
+    font-size: 1.625em;
+  }
+  .up {
+    font-size: 0.875em;
+  }
+  
+  /*****
+  Footer Stuff
+  *****/
+  
+  .footer-link {
+    font-size: 0.75em;
+  }
+  .copyright {
+    font-size: 0.5em;
+  }
 }
 
 
@@ -437,10 +451,10 @@ Selection
 *******************/
 
 ::selection {
-	background-color: black;
-	color: white;
+  background-color: black;
+  color: white;
 }
 ::-moz-selection {
-	background-color: rgba(0, 0, 0, 0.75);
-	color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
 }
