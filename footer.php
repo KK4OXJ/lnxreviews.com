@@ -2,22 +2,20 @@
   <nav>
     <a href="/about" class="footer-link about">About</a>
       <?php if (current_user_can('edit_posts')): ?>
-        <a href="/wp-admin" class="footer-link admin">Admin</a>
+        <a href="/wp-admin" class="footer-link center">Admin</a>
       
       <?php elseif (current_user_can('edit_posts')): ?>
-        <a href="/wp-admin/post-new.php" class="footer-link admin">Write a review</a>
+        <a href="/wp-admin/post-new.php" class="footer-link center">Write a review</a>
         
       <?php
-        global $current_user; 
-        get_currentuserinfo(); 
-        elseif (user_can($current_user, 'subscriber')):
+        elseif (is_user_logged_in()):
       ?>
-        <p>Thanks for subscribing!</p>
+        <a href="#" class="footer-link center">Thanks for subscribing!</a>
       
       <?php
         else:
       ?>
-        <a href="/wp-login.php" class="footer-link admin">Login</a>
+        <a href="/wp-login.php" class="footer-link center">Login</a>
       <?php endif; ?>
       <a href="/contact" class="footer-link contact">Contact</a>
     </nav>
