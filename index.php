@@ -1,7 +1,6 @@
 <?php get_header('home'); ?>
 
-<?php wp_reset_query(); ?>
-<?php $latest_post = get_posts('numberposts = 4') ?>
+<?php $latest_post = get_posts('numberposts', '4') ?>
 <?php foreach ($latest_post as $post) : setup_postdata($post); ?>
   <a href="<?php the_permalink() ?>" class="white">
     <h3 class="post-title"><?php the_title() ?></h3>
