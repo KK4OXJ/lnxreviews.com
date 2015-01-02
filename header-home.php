@@ -40,10 +40,12 @@
   
   <nav class="navbar">
     <?php
-      $args = array (
+      $defaults = array (
         'numberposts' => '4',
         'orderby' => 'date'
       );
+
+      $latest_post_title($defaults);
     ?>
     <?php foreach ($latest_post_title as $post): setup_postdata($post); ?>
       <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
