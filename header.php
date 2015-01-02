@@ -36,8 +36,13 @@
     </header>
 
     <nav class="navbar">
-      <?php $latest_post_title = get_posts('numberposts = 3') ?>
-      <?php foreach ($latest_post_title as $post) : setup_postdata($post); ?>
+      <?php
+        $args = array (
+          'numberposts' => '4',
+          'orderby' => 'date'
+        );
+      ?>
+      <?php foreach ($latest_post_title as $post): setup_postdata($post); ?>
         <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
       <?php endforeach; ?>
 
