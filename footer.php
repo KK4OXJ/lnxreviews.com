@@ -20,7 +20,7 @@
       <a href="/contact" class="footer-link right">Contact</a>
     </nav>
 
-    <p class="copyright">&copy; Copyrighted 2014 LnxReviews. Designed by Zeke Y</p>
+    <p class="copyright">&copy; Copyrighted <?php echo Date('Y') ?> <?php bloginfo('name') ?>. Designed by Zeke Y</p>
     
     <?php wp_footer() ?>
 </footer>
