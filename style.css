@@ -18,6 +18,7 @@ body {
   text-align: center;
   color: white;
   font-family: 'Crusoe Text', sans-serif;
+  cursor: default;
 }
 
 a {
@@ -135,6 +136,10 @@ Reviews
   position: relative;
   bottom: 10px;
   left: 47px;
+}
+
+.read-more {
+  font-weight: normal;
 }
 
 

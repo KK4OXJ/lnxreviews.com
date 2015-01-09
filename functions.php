@@ -56,4 +56,10 @@
     return 2678400;
   }
   add_filter('auth_cookie_expiration', 'remember_me');
+
+  // read more (used on the home page)
+  function excerpt_text($more) {
+    return '<a class="read-more" href="'.get_permalink(get_the_ID()).'">'.__('...', 'your-text-domain').'</a>';
+  }
+  add_filter('excerpt_more', 'excerpt_text');
 ?>
