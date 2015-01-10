@@ -1,18 +1,18 @@
 <?php
 
   // header options
-  $custom_header_defaults = array(
+  $custom_header = array(
     'width' => 100,
     'default-image' => get_template_directory_uri() . '/tux.png',
     'uploads' => true,
   );
-  add_theme_support('custom-header', $custom_header_defaults);
+  add_theme_support('custom-header', $custom_header);
   
   // background
-  $custom_background_defaults = array(
+  $custom_background = array(
     'default-color' => '888888'
   );
-  add_theme_support('custom-background', $custom_background_defaults);
+  add_theme_support('custom-background', $custom_background);
   
   // custom editor
   function custom_editor_styles() {
@@ -26,7 +26,7 @@
   remove_action('wp_head', 'rsd_link');
 
   // only keep 10 post revisions in the database
-  define('WP_POST_REVISIONS', 3);
+  define('WP_POST_REVISIONS', 7);
 
   // remove unnecesarry feeds from the head
   remove_action('wp_head', 'feed_links', 2);
