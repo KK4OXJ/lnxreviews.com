@@ -25,7 +25,7 @@
   remove_action('wp_head', 'wlwmanifest_link');
   remove_action('wp_head', 'rsd_link');
 
-  // only keep 10 post revisions in the database
+  // only keep 7 post revisions in the database
   define('WP_POST_REVISIONS', 7);
 
   // remove unnecesarry feeds from the head
