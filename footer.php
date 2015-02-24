@@ -20,23 +20,21 @@
       <a href="/contact" class="footer-link right">Contact</a>
     </nav>
 
-    <p class="copyright">&copy; Copyrighted <?php echo Date('Y') ?> <?php bloginfo('name') ?>. Designed by Zeke Y</p>
+    <p class="copyright">&copy; Copyrighted <?php echo Date('Y') ?> <?php bloginfo('name') ?>. Designed by <a href="https://kk4oxj.github.io">Zeke Y</a></p>
     
     <?php wp_footer() ?>
 </footer>
 
-<?php
-	if (is_home()):	
-?>
- <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/jquery.min.js"></script>
-  <script src="<?php echo esc_url(get_stylesheet_directory_uri()) ?>/script.js"></script>
+<?php if (is_home()):	?>
+  <script src="jquery.min.js"></script>
+  <script src="script.js"></script>
 <?php endif; ?>
 
 <script>
   if (navigator.doNotTrack == 1) {
-    console.log("We support Do Not Track (DNT)")
+    console.log("Don\'t worry, you won't show up in our analytics since you\'ve got Do Not Track (DNT) turned on.")
   }
-  else if (navigator.doNotTrack == "unspecified") {
+  else {
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
