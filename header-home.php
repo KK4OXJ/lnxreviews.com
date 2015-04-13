@@ -48,5 +48,5 @@
       <a href="<?php the_permalink() ?>" class="os-link"><?php the_title() ?></a>
     <?php endforeach; wp_reset_query(); ?>
 
-    <a href="all-versions" class="os-link">View all</a>
+    <a href="/all-reviews" class="os-link">View all</a>
   </nav>
